@@ -1604,7 +1604,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CHABonus</ControlName>
-    <ZIndex>32</ZIndex>
+    <ZIndex>29</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
@@ -1658,7 +1658,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CHAMod</ControlName>
-    <ZIndex>31</ZIndex>
+    <ZIndex>28</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -1763,7 +1763,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CHAScore</ControlName>
-    <ZIndex>30</ZIndex>
+    <ZIndex>27</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -1817,7 +1817,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CONBonus</ControlName>
-    <ZIndex>23</ZIndex>
+    <ZIndex>20</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
@@ -1871,7 +1871,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CONMod</ControlName>
-    <ZIndex>22</ZIndex>
+    <ZIndex>19</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -1925,7 +1925,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>CONScore</ControlName>
-    <ZIndex>21</ZIndex>
+    <ZIndex>18</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2183,7 +2183,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>INTBonus</ControlName>
-    <ZIndex>26</ZIndex>
+    <ZIndex>23</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
@@ -2237,7 +2237,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>INTMod</ControlName>
-    <ZIndex>25</ZIndex>
+    <ZIndex>22</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2291,7 +2291,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>INTScore</ControlName>
-    <ZIndex>24</ZIndex>
+    <ZIndex>21</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2431,7 +2431,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblCHA</ControlName>
-    <ZIndex>14</ZIndex>
+    <ZIndex>11</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2474,7 +2474,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblCON</ControlName>
-    <ZIndex>11</ZIndex>
+    <ZIndex>8</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2517,7 +2517,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblDEX</ControlName>
-    <ZIndex>10</ZIndex>
+    <ZIndex>7</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2603,7 +2603,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblNT</ControlName>
-    <ZIndex>12</ZIndex>
+    <ZIndex>9</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2732,7 +2732,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblWIS</ControlName>
-    <ZIndex>13</ZIndex>
+    <ZIndex>10</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2774,13 +2774,13 @@
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
-    <ControlName>STR</ControlName>
-    <ZIndex>9</ZIndex>
+    <ControlName>STRBonus</ControlName>
+    <ZIndex>14</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
       {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
-      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"STR"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"STRBonus"}},
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty","CustomProperty":[{"PropertyName":"target","PropertyValue":"STR","PropertyAttributes":null},{"PropertyName":"modifiersize","PropertyValue":"mini","PropertyAttributes":null}]}},
       {"Name":"DefaultValue"},
@@ -2829,7 +2829,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>STRMod</ControlName>
-    <ZIndex>8</ZIndex>
+    <ZIndex>13</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2883,7 +2883,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>STRScore</ControlName>
-    <ZIndex>7</ZIndex>
+    <ZIndex>12</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -2937,7 +2937,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>WISBonus</ControlName>
-    <ZIndex>29</ZIndex>
+    <ZIndex>26</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
@@ -2991,7 +2991,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>WISMod</ControlName>
-    <ZIndex>28</ZIndex>
+    <ZIndex>25</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -3045,7 +3045,7 @@
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>WISScore</ControlName>
-    <ZIndex>27</ZIndex>
+    <ZIndex>24</ZIndex>
     <ControlClass>FGNumberField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
