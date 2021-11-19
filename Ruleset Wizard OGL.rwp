@@ -8,7 +8,7 @@
     <Website>https://www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.7.9</RulesetWizardVersion>
+    <RulesetWizardVersion>0.7.10</RulesetWizardVersion>
     <RulesetList>CoreRPG</RulesetList>
     <LoadOrder />
     <Comments />
@@ -185,7 +185,7 @@
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"4"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"3"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"6"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
@@ -395,7 +395,11 @@
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"294"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
-    <LUACode />
+    <LUACode>
+function onValueChanged()
+	window.skillTotal.sourceUpdate();
+end
+</LUACode>
     <GroupIndex>0</GroupIndex>
   </WindowControls>
   <WindowControls>
@@ -452,19 +456,29 @@
 ]}}</Definition>
     <LUACode>
 function onInit()
-	setSources();
+
+	addSourceWithOp("skillRank", "+");
+	addSourceWithOp("skillMod", "+");	
+	--addSourceWithOp("...abilities." .. window.skillStat.getValue() .. ".bonus", "+");
+	addSourceWithOp("abilitybonus", "+"); -- not a real field, just an indicator for the onSourceValue below...
+	
 	super.onInit();
 end
 
-function setSources()
-	addSourceWithOp("skillRank", "+");
-	addSourceWithOp("skillMod", "+");	
-	
-	local nodeWin = window.getDatabaseNode();
-	local p1 = DB.getValue(window.getDatabaseNode(), "");
-	Debug.chat(p1);
-	addSourceWithOp("..abilities." .. window.skillStat.getValue() .. ".bonus", "+");
-end</LUACode>
+function onSourceValue(source, sourcename)
+
+	if sourcename == "abilitybonus" then
+		if window.skillStat.getValue() ~= "" then
+			-- get the selected ability bonus
+			return DB.getValue(window.getDatabaseNode(), "...abilities." .. window.skillStat.getValue() .. ".bonus", 0);
+		else
+			return 0;
+		end
+	end
+
+	return super.onSourceValue(source, sourcename);
+end
+</LUACode>
     <GroupIndex>0</GroupIndex>
   </WindowControls>
   <WindowControls>
@@ -993,7 +1007,7 @@ end</LUACode>
       {"Name":"InheritSizePosition"},
       {"Name":"InsertBefore"},
       {"Name":"Invisible"},
-      {"Name":"LineOffset","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"LineOffset","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"Merge"},
       {"Name":"MultilineSpacing"},
       {"Name":"NextTabTarget"},
@@ -5083,7 +5097,7 @@ end</LUACode>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>lblNotes</ControlName>
-    <ZIndex>45</ZIndex>
+    <ZIndex>44</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -5532,7 +5546,7 @@ end</LUACode>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
     <ControlName>Notes</ControlName>
-    <ZIndex>46</ZIndex>
+    <ZIndex>45</ZIndex>
     <ControlClass>FGStringField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
