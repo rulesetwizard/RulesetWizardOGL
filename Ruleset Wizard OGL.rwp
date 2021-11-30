@@ -1925,7 +1925,7 @@ end</LUACode>
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"424"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"45"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"41"}}
 ]}}</Definition>
     <LUACode>function onInit()
 
@@ -1950,7 +1950,7 @@ function onSourceValue(source, sourcename)
 
 	return super.onSourceValue(source, sourcename);
 end</LUACode>
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -1992,14 +1992,14 @@ end</LUACode>
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"238"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"45"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"41"}}
 ]}}</Definition>
     <LUACode>
 function onValueChanged()
 	window.AC.sourceUpdate();
 end
 </LUACode>
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2051,10 +2051,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"286"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"45"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"41"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2164,7 +2164,7 @@ end
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"230"}},
-      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"259"}},
       {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
       {"Name":"Disabled"},
@@ -2249,7 +2249,7 @@ end
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DefaultValue"},
       {"Name":"DelayKeyUpdate"},
-      {"Name":"DescriptionText","Value":{"@xsi:type":"xsd:string","#text":"Armor Class"}},
+      {"Name":"DescriptionText","Value":{"@xsi:type":"xsd:string","#text":"Current Hit Points"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"30"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
@@ -2297,7 +2297,7 @@ end
 	super.onInit();
 end
 </LUACode>
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2352,7 +2352,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"199"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2407,7 +2407,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"199"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2459,10 +2459,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"294"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"145"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"146"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2514,10 +2514,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"355"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"145"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"146"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2532,7 +2532,7 @@ end
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DefaultValue"},
       {"Name":"DelayKeyUpdate"},
-      {"Name":"DescriptionText","Value":{"@xsi:type":"xsd:string","#text":"Armor Class"}},
+      {"Name":"DescriptionText","Value":{"@xsi:type":"xsd:string","#text":"Initiative"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"30"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
@@ -2569,7 +2569,7 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"415"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"145"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"146"}}
 ]}}</Definition>
     <LUACode>function onInit()
 
@@ -2579,7 +2579,7 @@ end
 	super.onInit();
 end
 </LUACode>
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2619,10 +2619,53 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"234"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"150"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"151"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>Label2</ControlName>
+    <ZIndex>59</ZIndex>
+    <ControlClass>FGLabel</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"CanGrowVert"},
+      {"Name":"Center","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"Label2"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"62"}},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"charselecttitle"}},
+      {"Name":"FrameName"},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"LabelCaption","Value":{"@xsi:type":"xsd:string","#text":"Speed"}},
+      {"Name":"Merge"},
+      {"Name":"MultilineSpacing"},
+      {"Name":"NextTabTarget"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"233"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"98"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2662,10 +2705,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"240"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"25"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2705,10 +2748,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"428"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"25"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2748,10 +2791,53 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"292"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"25"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>lblBaseSpeed</ControlName>
+    <ZIndex>60</ZIndex>
+    <ControlClass>FGLabel</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"CanGrowVert"},
+      {"Name":"Center","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"lblBaseSpeed"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"50"}},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName"},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"LabelCaption","Value":{"@xsi:type":"xsd:string","#text":"Base"}},
+      {"Name":"Merge"},
+      {"Name":"MultilineSpacing"},
+      {"Name":"NextTabTarget"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"297"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"73"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2794,7 +2880,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"179"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2837,7 +2923,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"179"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2880,7 +2966,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"179"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2920,10 +3006,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"298"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"125"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"126"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -2963,10 +3049,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"359"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"125"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"126"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -3006,10 +3092,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"419"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"125"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"126"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>2</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -3049,10 +3135,53 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"382"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"25"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>lblMiscSpeed</ControlName>
+    <ZIndex>62</ZIndex>
+    <ControlClass>FGLabel</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"CanGrowVert"},
+      {"Name":"Center","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"lblMiscSpeed"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"52"}},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName"},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"LabelCaption","Value":{"@xsi:type":"xsd:string","#text":"Misc."}},
+      {"Name":"Merge"},
+      {"Name":"MultilineSpacing"},
+      {"Name":"NextTabTarget"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"358"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"73"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -3522,10 +3651,53 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"336"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"25"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>lblTotalSpeed</ControlName>
+    <ZIndex>64</ZIndex>
+    <ControlClass>FGLabel</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"CanGrowVert"},
+      {"Name":"Center","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"lblTotalSpeed"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"50"}},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"charselecttitle"}},
+      {"Name":"FrameName"},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"LabelCaption","Value":{"@xsi:type":"xsd:string","#text":"Total"}},
+      {"Name":"Merge"},
+      {"Name":"MultilineSpacing"},
+      {"Name":"NextTabTarget"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"418"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"73"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -3568,7 +3740,7 @@ end
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"179"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -3620,10 +3792,10 @@ end
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"378"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"45"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"41"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -4695,10 +4867,182 @@ end</LUACode>
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"332"}},
-      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"45"}}
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"41"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>4</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>speedBase</ControlName>
+    <ZIndex>61</ZIndex>
+    <ControlClass>FGNumberField</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"speedBase"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DefaultValue"},
+      {"Name":"DelayKeyUpdate"},
+      {"Name":"DescriptionText"},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"30"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
+      {"Name":"Disabled"},
+      {"Name":"DisplaySign"},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMEditOnly"},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HideOnValue","Value":{"@xsi:type":"xsd:decimal","#text":"0"}},
+      {"Name":"HideRollWidget"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"MaxValue"},
+      {"Name":"Merge"},
+      {"Name":"MinValue"},
+      {"Name":"NextTabTarget"},
+      {"Name":"NoDrag"},
+      {"Name":"NoDrop"},
+      {"Name":"NoKeyEdit"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"ReadOnly"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"Source"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"293"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"93"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>speedMisc</ControlName>
+    <ZIndex>63</ZIndex>
+    <ControlClass>FGNumberField</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"speedMisc"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DefaultValue"},
+      {"Name":"DelayKeyUpdate"},
+      {"Name":"DescriptionText"},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"30"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
+      {"Name":"Disabled"},
+      {"Name":"DisplaySign"},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMEditOnly"},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HideOnValue","Value":{"@xsi:type":"xsd:decimal","#text":"0"}},
+      {"Name":"HideRollWidget"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"MaxValue"},
+      {"Name":"Merge"},
+      {"Name":"MinValue"},
+      {"Name":"NextTabTarget"},
+      {"Name":"NoDrag"},
+      {"Name":"NoDrop"},
+      {"Name":"NoKeyEdit"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"ReadOnly"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"Source"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"354"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"93"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>5</GroupIndex>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>charsheet_combat</WindowName>
+    <ControlName>speedTotal</ControlName>
+    <ZIndex>65</ZIndex>
+    <ControlClass>FGNumberField</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"number_modifier"}},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"speedTotal"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DefaultValue"},
+      {"Name":"DelayKeyUpdate"},
+      {"Name":"DescriptionText","Value":{"@xsi:type":"xsd:string","#text":"Speed"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"30"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":null,"DiceRollDescription":null,"UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"Targeting":null,"AdditionalInfo":null}},
+      {"Name":"Disabled"},
+      {"Name":"DisplaySign"},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMEditOnly"},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HideOnValue"},
+      {"Name":"HideRollWidget"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"MaxValue"},
+      {"Name":"Merge"},
+      {"Name":"MinValue"},
+      {"Name":"NextTabTarget"},
+      {"Name":"NoDrag"},
+      {"Name":"NoDrop"},
+      {"Name":"NoKeyEdit"},
+      {"Name":"PrevTabTarget"},
+      {"Name":"ReadOnly","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"Source"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"414"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"93"}}
+]}}</Definition>
+    <LUACode>function onInit()
+
+	addSourceWithOp("speedBase", "+");
+	addSourceWithOp("speedMisc", "+");	
+	
+	super.onInit();
+end
+</LUACode>
+    <GroupIndex>5</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -4753,7 +5097,7 @@ end</LUACode>
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"199"}}
 ]}}</Definition>
     <LUACode />
-    <GroupIndex>0</GroupIndex>
+    <GroupIndex>1</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
