@@ -21755,7 +21755,7 @@ end</LUACode>
       {"Name":"InsertBefore"},
       {"Name":"Invisible"},
       {"Name":"LinkFieldAllowDrop"},
-      {"Name":"LinkFieldClass","Value":{"@xsi:type":"xsd:string","#text":"spell"}},
+      {"Name":"LinkFieldClass","Value":{"@xsi:type":"xsd:string","#text":"weapon"}},
       {"Name":"LinkFieldDescriptionField"},
       {"Name":"LinkFieldRecordName"},
       {"Name":"LinkFieldSelfOnEmpty"},
@@ -22826,23 +22826,29 @@ function onInit()
 	-- See scripts\data_library.lua in CoreRPG for reference
 	LibraryData.aRecords["spells"] = { 
 		bExport = true,
-		aDataMap = { "spells", "reference.spells" }, 
+		aDataMap = { "reference.spells" }, 
 		sRecordDisplayClass = "spell", 
 		sDisplayText = "library_recordtype_label_spells",
 		aCustomFilters = {
 			["School"] = { sField = "school" },
 			["Level"] = { sField = "spelllevel", sType = "number" },
 		},		
-		}
+	}
 
 	LibraryData.aRecords["item_weapon"] = { 
 		bExport = true,
-		aDataMap = { "item_weapon", "reference.weapons" }, 
+		aDataMap = { "reference.weapons" }, 
 		sRecordDisplayClass = "weapon", 
 		sListDisplayClass = "weaponlist",
 		sDisplayText = "library_recordtype_label_item_weapon",
-		}
+	}
 
+	-- Set new reference nodes as public
+	if User.isHost() then
+		DB.findNode("reference.spells").setPublic(true);
+		DB.findNode("reference.weapons").setPublic(true);
+	end;
+	
 	-- To allow the creation of custom sidebar buttons
 	Interface.onDesktopInit = onDesktopInit;
 
@@ -22868,6 +22874,9 @@ function createCustomDockSidebarButton()
 	local w = _wShortcuts.shortcutbar.subwindow.list_dock.createWindow();
 	w.setData(vButton);
 
+	if User.isHost() then
+		DB.findNode("reference.classes").setPublic(true);
+	end
 end</Script>
     <RegisterScript>true</RegisterScript>
     <Encoding />
