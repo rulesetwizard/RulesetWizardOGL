@@ -2531,12 +2531,12 @@ end
     <LUACode>
 function onInit()
 	registerMenuItem(Interface.getString("cs_spells_addspellaction"), "pointer", 3);
-	registerMenuItem(Interface.getString("cs_spells_addspellaction_cast"), "radial_sword", 3, 2);
+	registerMenuItem(Interface.getString("cs_spells_addspellaction_attack"), "radial_sword", 3, 2);
 	registerMenuItem(Interface.getString("cs_spells_addspellaction_damage"), "radial_damage", 3, 3);
 	registerMenuItem(Interface.getString("cs_spells_addspellaction_heal"), "radial_heal", 3, 4);
 	registerMenuItem(Interface.getString("cs_spells_addspellaction_effect"), "radial_effect", 3, 5);
 		
-	showSpellCounter();
+	showSlotCounter();
 	
 	if btnExpandSpellActions.getValue() == 0 then
 		spellActions.setVisible(false);
@@ -2549,8 +2549,11 @@ function onMenuSelection(selection, subselection, subsubselection)
 			local w = spellActions.createWindow();
 			btnExpandSpellActions.setValue(1);
 			if subselection == 2 then
+				w.actiontype.setValue('attack');
 			elseif subselection == 3 then
+				w.actiontype.setValue('damage');
 			elseif subselection == 4 then
+				w.actiontype.setValue('heal');
 			elseif subselection == 5 then
 				w.actiontype.setValue('effect');
 			end
@@ -2559,7 +2562,7 @@ function onMenuSelection(selection, subselection, subsubselection)
 	end
 end
 
-function showSpellCounter()
+function showSlotCounter()
 	if spellSlots.getValue() &gt; 0 then
 		slotCounter.setVisible(true);
 	else
@@ -2621,11 +2624,7 @@ end
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"509"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}
 ]}}</Definition>
-    <LUACode>
-function onValueChanged()
-	window.showSpellCounter();
-end
-</LUACode>
+    <LUACode />
     <GroupIndex>0</GroupIndex>
   </WindowControls>
   <WindowControls>
@@ -2688,7 +2687,7 @@ end
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"12"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
-      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"342"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"340"}},
       {"Name":"Disabled"},
       {"Name":"FieldCurrent","Value":{"@xsi:type":"xsd:string","#text":"currentSlots"}},
       {"Name":"FieldMax","Value":{"@xsi:type":"xsd:string","#text":"spellSlots"}},
@@ -2716,7 +2715,7 @@ end
       {"Name":"StackVertWith","Value":{"@xsi:type":"xsd:string","#text":"spellName"}},
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"29"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"33"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"21"}}
 ]}}</Definition>
     <LUACode />
@@ -2795,7 +2794,7 @@ end
       {"Name":"DelayKeyUpdate","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"21"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
-      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"345"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"340"}},
       {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"EmptyText"},
@@ -2826,7 +2825,7 @@ end
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"28"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"33"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"2"}}
 ]}}</Definition>
     <LUACode />
@@ -2886,14 +2885,14 @@ end
 ]}}</Definition>
     <LUACode>
 function onValueChanged()
-	window.showSpellCounter();
+	window.showSlotCounter();
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
-    <ControlName>actionCast</ControlName>
+    <ControlName>actionAttack</ControlName>
     <ZIndex>3</ZIndex>
     <ControlClass>FGSubWindow</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
@@ -2901,7 +2900,7 @@ end
       {"Name":"AdvancedTemplate"},
       {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
       {"Name":"CanGrowVert"},
-      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"actionCast"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"actionAttack"}},
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"24"}},
@@ -3178,7 +3177,17 @@ end
 ]}}</Definition>
     <LUACode>
 function onInit()
+
+	registerMenuItem(Interface.getString("cs_spells_removespellaction"), "deletepointer", 4);
+	registerMenuItem(Interface.getString("list_menu_deleteconfirm"), "delete", 4, 3);
+
 	showAction();
+end
+
+function onMenuSelection(selection, subselection)
+	if selection == 4 and subselection == 3 then
+		getDatabaseNode().delete();
+	end
 end
 
 function showAction()
@@ -3239,7 +3248,7 @@ end;
       {"Name":"StackVertWith","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"3"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"8"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"3"}}
 ]}}</Definition>
     <LUACode />
@@ -3347,7 +3356,7 @@ end;
       {"Name":"StackVertWith","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"24"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"33"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"3"}}
 ]}}</Definition>
     <LUACode />
@@ -14755,6 +14764,7 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"17"}},
@@ -24424,7 +24434,8 @@ end</Script>
 	&lt;string name="cs_spells_spellslots"&gt;Spells&lt;/string&gt;
 	&lt;string name="cs_spells_spellslots_reset"&gt;Reset Spells Usage&lt;/string&gt;
 	&lt;string name="cs_spells_addspellaction"&gt;Add Action&lt;/string&gt;
-	&lt;string name="cs_spells_addspellaction_cast"&gt;Add Cast&lt;/string&gt;
+	&lt;string name="cs_spells_removespellaction"&gt;Remove Action&lt;/string&gt;
+	&lt;string name="cs_spells_addspellaction_attack"&gt;Add Attack&lt;/string&gt;
 	&lt;string name="cs_spells_addspellaction_damage"&gt;Add Damage&lt;/string&gt;
 	&lt;string name="cs_spells_addspellaction_heal"&gt;Add Heal&lt;/string&gt;
 	&lt;string name="cs_spells_addspellaction_effect"&gt;Add Effect&lt;/string&gt;
