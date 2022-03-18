@@ -205,6 +205,10 @@
     <FolderID>1</FolderID>
   </Windows>
   <Windows>
+    <Name>templates</Name>
+    <FolderID>9</FolderID>
+  </Windows>
+  <Windows>
     <Name>weapon</Name>
     <FolderID>1</FolderID>
   </Windows>
@@ -292,6 +296,7 @@ function onSourceValue(source, sourcename)
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -391,6 +396,7 @@ end
 
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -436,6 +442,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -490,6 +497,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -535,6 +543,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -592,6 +601,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -650,6 +660,7 @@ function UpdateTotal()
 	attackDamage.calculateValue();	
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -699,6 +710,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -746,6 +758,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attack</WindowName>
@@ -789,6 +802,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -844,6 +858,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -899,6 +914,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -954,6 +970,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1008,6 +1025,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1057,6 +1075,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1112,6 +1131,7 @@ end
     <LUACode xml:space="preserve">
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1160,6 +1180,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1219,6 +1240,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1278,6 +1300,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1327,6 +1350,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1369,6 +1393,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1411,6 +1436,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1455,6 +1481,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1499,6 +1526,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1543,6 +1571,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1587,6 +1616,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1631,6 +1661,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1675,6 +1706,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1719,6 +1751,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1763,6 +1796,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1807,6 +1841,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1851,6 +1886,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_attackdetails</WindowName>
@@ -1895,6 +1931,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -1952,6 +1989,7 @@ function UpdateTotal()
 	skillTotal.onSourceUpdate();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -1996,6 +2034,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2045,6 +2084,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2092,6 +2132,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2147,6 +2188,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2201,6 +2243,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2256,6 +2299,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2305,6 +2349,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2383,6 +2428,7 @@ function onSourceValue(source, sourcename)
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_skill</WindowName>
@@ -2426,6 +2472,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2487,6 +2534,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2582,6 +2630,7 @@ function showSlotCounter()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2637,6 +2686,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2684,6 +2734,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2731,6 +2782,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2774,6 +2826,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2830,6 +2883,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2884,6 +2938,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spell</WindowName>
@@ -2943,6 +2998,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -2988,6 +3044,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -3033,6 +3090,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -3078,6 +3136,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -3123,6 +3182,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -3177,6 +3237,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellaction</WindowName>
@@ -3258,6 +3319,7 @@ function showAction()
 end;
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3318,6 +3380,7 @@ function onDragStart(button, x, y, draginfo)
 	return true;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3378,6 +3441,7 @@ function onDragStart(button, x, y, draginfo)
 	return true;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3432,6 +3496,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3476,6 +3541,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3520,6 +3586,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3575,6 +3642,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellattack</WindowName>
@@ -3630,6 +3698,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3690,6 +3759,7 @@ function onDragStart(button, x, y, draginfo)
 	return true;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3744,6 +3814,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3798,6 +3869,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3852,6 +3924,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3896,6 +3969,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelleffect</WindowName>
@@ -3940,6 +4014,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -3997,6 +4072,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4060,6 +4136,7 @@ function setFilter(s)
 	spellfilter.setValue(s);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4104,6 +4181,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4153,6 +4231,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4196,6 +4275,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4240,6 +4320,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4294,6 +4375,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4411,6 +4493,7 @@ function addEntry(bFocus)
 	return w;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>char_spellgroup</WindowName>
@@ -4460,6 +4543,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4505,6 +4589,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4554,6 +4639,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4618,6 +4704,7 @@ function onAbilityBonusChanged(nodeAbility)
 	combat.subwindow.UpdateAttacks();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4663,6 +4750,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4705,6 +4793,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4747,6 +4836,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4789,6 +4879,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4834,6 +4925,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4877,6 +4969,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4922,6 +5015,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -4976,6 +5070,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5021,6 +5116,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5064,6 +5160,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5106,6 +5203,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5150,6 +5248,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5195,6 +5294,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5238,6 +5338,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5283,6 +5384,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5325,6 +5427,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet</WindowName>
@@ -5368,6 +5471,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_abilities</WindowName>
@@ -5422,6 +5526,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_abilities</WindowName>
@@ -5471,6 +5576,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_abilities</WindowName>
@@ -5520,6 +5626,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_abilities</WindowName>
@@ -5574,6 +5681,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_abilities</WindowName>
@@ -5618,6 +5726,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_class</WindowName>
@@ -5672,6 +5781,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_class</WindowName>
@@ -5727,6 +5837,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_class</WindowName>
@@ -5774,6 +5885,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_class</WindowName>
@@ -5828,6 +5940,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -5905,6 +6018,7 @@ function onSourceValue(source, sourcename)
 	return super.onSourceValue(source, sourcename);
 end</LUACode>
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -5954,6 +6068,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6009,6 +6124,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6069,6 +6185,7 @@ function UpdateAttacks()
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6111,6 +6228,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6153,6 +6271,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6216,6 +6335,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6271,6 +6391,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6326,6 +6447,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6381,6 +6503,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6436,6 +6559,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6498,6 +6622,7 @@ end
 end
 </LUACode>
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6542,6 +6667,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6586,6 +6712,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6630,6 +6757,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6679,6 +6807,7 @@ end
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6723,6 +6852,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6767,6 +6897,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6811,6 +6942,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6855,6 +6987,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6899,6 +7032,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6943,6 +7077,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -6987,6 +7122,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7031,6 +7167,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7075,6 +7212,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>6</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7119,6 +7257,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7163,6 +7302,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7207,6 +7347,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7251,6 +7392,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7295,6 +7437,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7339,6 +7482,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7383,6 +7527,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7427,6 +7572,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7471,6 +7617,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7515,6 +7662,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7559,6 +7707,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7603,6 +7752,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7647,6 +7797,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7691,6 +7842,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7735,6 +7887,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7779,6 +7932,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7823,6 +7977,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7867,6 +8022,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7922,6 +8078,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -7977,6 +8134,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8032,6 +8190,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8092,6 +8251,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8147,6 +8307,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8202,6 +8363,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8262,6 +8424,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8317,6 +8480,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8372,6 +8536,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8432,6 +8597,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8487,6 +8653,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8542,6 +8709,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8602,6 +8770,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8657,6 +8826,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8712,6 +8882,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8772,6 +8943,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8827,6 +8999,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8882,6 +9055,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8942,6 +9116,7 @@ end</LUACode>
 	super.onInit();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -8986,6 +9161,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9041,6 +9217,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9096,6 +9273,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9151,6 +9329,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9213,6 +9392,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>5</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9334,6 +9514,7 @@ function addEntry(bFocus)
 	return w;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9383,6 +9564,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9432,6 +9614,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_combat</WindowName>
@@ -9487,6 +9670,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9529,6 +9713,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9583,6 +9768,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9626,6 +9812,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9681,6 +9868,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9736,6 +9924,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9791,6 +9980,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9846,6 +10036,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9901,6 +10092,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9956,6 +10148,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -9998,6 +10191,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10052,6 +10246,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10106,6 +10301,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10160,6 +10356,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10214,6 +10411,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10268,6 +10466,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10322,6 +10521,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10376,6 +10576,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10419,6 +10620,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10462,6 +10664,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10504,6 +10707,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10559,6 +10763,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10602,6 +10807,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10644,6 +10850,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10698,6 +10905,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10747,6 +10955,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10812,6 +11021,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10855,6 +11065,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10898,6 +11109,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10942,6 +11154,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_inventory</WindowName>
@@ -10985,6 +11198,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11033,12 +11247,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"259"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"16"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11088,12 +11304,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CHA.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"243"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11143,12 +11361,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CHA.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"243"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11203,6 +11423,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11252,12 +11473,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CHA.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"243"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11307,12 +11530,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CON.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"156"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11362,12 +11587,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CON.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"156"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11417,12 +11644,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.CON.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"156"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11472,12 +11701,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.DEX.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"127"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11527,12 +11758,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.DEX.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"127"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11582,12 +11815,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.DEX.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"127"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11624,12 +11859,14 @@ end
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"8"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"54"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11666,12 +11903,14 @@ end
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"8"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"284"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11708,12 +11947,14 @@ end
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"8"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"403"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11750,12 +11991,14 @@ end
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"8"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"6"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11805,12 +12048,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.INT.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"185"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11860,12 +12105,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.INT.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"185"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11915,12 +12162,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.INT.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"185"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -11957,13 +12206,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"24"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"66"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12000,13 +12252,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"204"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"82"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12043,13 +12298,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"151"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"82"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12086,13 +12344,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"103"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"82"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12129,13 +12390,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"260"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"34"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12172,13 +12436,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"249"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12215,13 +12482,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"30"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"296"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12258,13 +12528,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"162"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12301,13 +12574,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"133"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12344,13 +12620,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"26"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"435"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12387,13 +12666,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"191"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12430,13 +12712,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"25"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"34"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12473,13 +12758,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"269"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"61"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12516,13 +12804,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"26"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"413"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12559,13 +12850,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"104"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12602,13 +12896,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"22"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"220"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12650,12 +12947,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"453"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"20"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12697,12 +12996,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"228"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"20"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12750,6 +13051,7 @@ end
       {"Name":"SkipEmpty"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"WindowListClassName","Value":{"@xsi:type":"xsd:string","#text":"charsheet_class"}},
       {"Name":"WindowListFilterBy","Value":{"@xsi:type":"FilterByDefinition","FilterSourceType":"Control","FilterOnSourceType":"Control"}},
@@ -12764,6 +13066,7 @@ function addEntry()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12807,12 +13110,14 @@ end
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"213"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"294"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12849,13 +13154,16 @@ end
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"172"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"296"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12904,12 +13212,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"91"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"436"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -12958,12 +13268,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"24"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"16"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>1</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13002,12 +13314,14 @@ end
       {"Name":"ScrollTarget","Value":{"@xsi:type":"xsd:string","#text":"listClasses"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"228"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"310"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13056,12 +13370,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"91"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"414"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13111,12 +13427,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.STR.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"98"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13166,12 +13484,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.STR.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"98"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13221,12 +13541,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.STR.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"98"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13265,12 +13587,14 @@ end
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"253"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"75"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13320,12 +13644,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.WIS.bonus"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"195"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"214"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13375,12 +13701,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.WIS.modifier"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"214"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_main</WindowName>
@@ -13430,12 +13758,14 @@ end
       {"Name":"Source","Value":{"@xsi:type":"xsd:string","#text":"abilities.WIS.score"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"92"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"214"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>4</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13490,6 +13820,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13544,6 +13875,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13586,6 +13918,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13640,6 +13973,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13682,6 +14016,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13736,6 +14071,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13790,6 +14126,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13832,6 +14169,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13893,6 +14231,7 @@ end
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13942,6 +14281,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -13991,6 +14331,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14034,6 +14375,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14077,6 +14419,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14120,6 +14463,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14163,6 +14507,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14206,6 +14551,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14249,6 +14595,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14292,6 +14639,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14335,6 +14683,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14389,6 +14738,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14431,6 +14781,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14485,6 +14836,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14529,6 +14881,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14573,6 +14926,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14617,6 +14971,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_notes</WindowName>
@@ -14671,6 +15026,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14742,6 +15098,7 @@ function UpdateSkills()
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14785,6 +15142,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14828,6 +15186,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14871,6 +15230,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14914,6 +15274,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -14957,6 +15318,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -15001,6 +15363,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -15092,6 +15455,7 @@ function addEntry(bFocus)
 	return w;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -15141,6 +15505,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_skills</WindowName>
@@ -15190,6 +15555,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15266,6 +15632,7 @@ function ResetSpellSlots()
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15320,6 +15687,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15364,6 +15732,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15408,6 +15777,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15468,6 +15838,7 @@ function onValueChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15589,6 +15960,7 @@ function addEntry(bFocus)
 --	return w;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15638,6 +16010,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>charsheet_spells</WindowName>
@@ -15687,6 +16060,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15730,12 +16104,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"356"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15806,6 +16182,7 @@ function update()
 
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15841,12 +16218,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"30"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"126"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15883,12 +16262,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"15"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"65"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15927,12 +16308,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"145"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"75"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -15969,13 +16352,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"40"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"105"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -16012,13 +16398,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"39"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"82"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -16060,12 +16449,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"36"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -16109,12 +16500,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"357"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"36"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -16163,12 +16556,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"45"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"28"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classdetail</WindowName>
@@ -16205,12 +16600,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"1"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"373"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"373"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classline</WindowName>
@@ -16265,6 +16662,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classline</WindowName>
@@ -16308,12 +16706,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"228"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classline</WindowName>
@@ -16355,12 +16755,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"4"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classline</WindowName>
@@ -16409,12 +16811,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"28"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16464,6 +16868,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16533,6 +16938,7 @@ function update()
 	end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16582,6 +16988,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16645,6 +17052,7 @@ function onValueChanged()
 	window[target[1]].update();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16699,6 +17107,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16741,6 +17150,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16783,6 +17193,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>classlist</WindowName>
@@ -16827,6 +17238,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -16884,6 +17296,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -16941,6 +17354,7 @@ end
     end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -16983,6 +17397,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17097,6 +17512,7 @@ function onIDChanged()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17140,6 +17556,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17182,6 +17599,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17234,6 +17652,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17290,6 +17709,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17332,6 +17752,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17378,6 +17799,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17430,6 +17852,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17482,6 +17905,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17526,6 +17950,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17569,6 +17994,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17612,6 +18038,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17664,6 +18091,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17716,6 +18144,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>client_ct_entry</WindowName>
@@ -17769,6 +18198,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>clientct_effects</WindowName>
@@ -17828,6 +18258,7 @@ end
 
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>clientct_effects</WindowName>
@@ -17882,6 +18313,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>clientct_effects</WindowName>
@@ -17924,6 +18356,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -17973,6 +18406,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18022,6 +18456,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18087,6 +18522,7 @@ function updateShowOrder()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18130,6 +18566,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18173,6 +18610,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18216,6 +18654,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18351,6 +18790,7 @@ function onClickRelease(button, x, y)
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18393,6 +18833,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18446,6 +18887,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18490,6 +18932,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_client</WindowName>
@@ -18548,6 +18991,7 @@ function onDragStart(button, x, y, draginfo)
     return true;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18597,6 +19041,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18639,6 +19084,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18681,6 +19127,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18723,6 +19170,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18772,6 +19220,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18831,6 +19280,7 @@ function onDragStart(button, x, y, draginfo)
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18880,6 +19330,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18943,6 +19394,7 @@ function onDragEnd(draginfo)
     widget.setVisible(true);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -18995,6 +19447,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19047,6 +19500,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19099,6 +19553,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19151,6 +19606,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19203,6 +19659,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19255,6 +19712,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19304,6 +19762,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19357,6 +19816,7 @@ function onButtonPress()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19411,6 +19871,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19453,6 +19914,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19495,6 +19957,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19538,6 +20001,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19581,6 +20045,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19624,6 +20089,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19874,6 +20340,7 @@ function onDrop(x, y, draginfo)
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19916,6 +20383,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -19971,6 +20439,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>combattracker_host</WindowName>
@@ -20015,6 +20484,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_attacks</WindowName>
@@ -20068,6 +20538,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_attacks</WindowName>
@@ -20122,6 +20593,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_defense</WindowName>
@@ -20174,6 +20646,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_defense</WindowName>
@@ -20226,6 +20699,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_effects</WindowName>
@@ -20287,6 +20761,7 @@ end
 
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_effects</WindowName>
@@ -20341,6 +20816,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_effects</WindowName>
@@ -20390,6 +20866,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20443,6 +20920,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20496,6 +20974,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20549,6 +21028,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20602,6 +21082,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20655,6 +21136,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20704,6 +21186,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20746,6 +21229,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -20789,6 +21273,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21051,6 +21536,7 @@ function setDefenseVisible()
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21093,6 +21579,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21137,6 +21624,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21179,6 +21667,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21231,6 +21720,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21289,6 +21779,7 @@ end
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21342,6 +21833,7 @@ end
     end
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21392,6 +21884,7 @@ end</LUACode>
 end
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21446,6 +21939,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21500,6 +21994,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21554,6 +22049,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21596,6 +22092,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21641,6 +22138,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21686,6 +22184,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21731,6 +22230,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21776,6 +22276,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21821,6 +22322,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21865,6 +22367,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21907,6 +22410,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -21951,6 +22455,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -22005,6 +22510,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -22059,6 +22565,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_entry</WindowName>
@@ -22110,6 +22617,7 @@ end
     window.onVisibilityChanged();
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_spacing</WindowName>
@@ -22162,6 +22670,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_spacing</WindowName>
@@ -22215,6 +22724,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_spacing</WindowName>
@@ -22258,6 +22768,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_spacing</WindowName>
@@ -22311,6 +22822,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>ct_spacing</WindowName>
@@ -22354,6 +22866,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>modifierstack</WindowName>
@@ -22404,6 +22917,7 @@ end</LUACode>
     <LUACode xml:space="preserve">
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>modifierstack</WindowName>
@@ -22453,6 +22967,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>modifierstack</WindowName>
@@ -22513,6 +23028,7 @@ end
 
 </LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22562,6 +23078,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22616,6 +23133,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22670,6 +23188,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22724,6 +23243,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22766,6 +23286,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22809,6 +23330,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22852,6 +23374,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22895,6 +23418,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22938,6 +23462,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -22981,6 +23506,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23024,6 +23550,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23067,6 +23594,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23114,6 +23642,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23163,6 +23692,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23217,6 +23747,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23271,6 +23802,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23313,6 +23845,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23367,6 +23900,7 @@ end
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23440,6 +23974,7 @@ function update()
 	spelldescription.setReadOnly(bReadOnly);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23494,6 +24029,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>spell</WindowName>
@@ -23549,6 +24085,240 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
+  </WindowControls>
+  <WindowControls>
+    <WindowName>templates</WindowName>
+    <ControlName>template_dicelabel</ControlName>
+    <ZIndex>3</ZIndex>
+    <ControlClass>FGStringField</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"CanGrowVert"},
+      {"Name":"Center"},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"template_dicelabel"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DefaultText","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"DelayKeyUpdate","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"150"}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
+      {"Name":"Disabled"},
+      {"Name":"EmptyText"},
+      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"FontName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName"},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMEditOnly"},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"LineOffset"},
+      {"Name":"Merge"},
+      {"Name":"MultilineSpacing"},
+      {"Name":"NextTabTarget"},
+      {"Name":"NoDrag","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"NoDragselect","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"NoDrop","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"PrevTabTarget"},
+      {"Name":"ReadOnly"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"ScriptFile"},
+      {"Name":"Source"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string","#text":"diceLabel"}},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"44"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"24"}}
+]}}</Definition>
+    <LUACode>function onInit()
+	if dicefield[1] then
+		local dicevalue = DB.getValue(window.getDatabaseNode(), dicefield[1]);
+		local modvalue = DB.getValue(window.getDatabaseNode(), dicefield[1] .. "modifier");
+		setValue(StringManager.convertDiceToString(dicevalue, modvalue));
+	end
+end</LUACode>
+    <GroupIndex>0</GroupIndex>
+    <Template>diceLabel</Template>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>templates</WindowName>
+    <ControlName>template_dieFieldModifier</ControlName>
+    <ZIndex>2</ZIndex>
+    <ControlClass>FGDieField</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AdvancedTemplate"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"template_dieFieldModifier"}},
+      {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"35"}},
+      {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"60"}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
+      {"Name":"Disabled"},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
+      {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"GMEditOnly"},
+      {"Name":"GMVisibleOnly"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"InsertBefore"},
+      {"Name":"Invisible"},
+      {"Name":"Merge"},
+      {"Name":"NextTabTarget"},
+      {"Name":"NoReset","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
+      {"Name":"PrevTabTarget"},
+      {"Name":"ReadOnly"},
+      {"Name":"RelativeMargin"},
+      {"Name":"RelativeStacking"},
+      {"Name":"Rollable"},
+      {"Name":"ScriptFile","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"Source"},
+      {"Name":"StackVertWith"},
+      {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string","#text":"dieFieldModifier"}},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"37"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"65"}}
+]}}</Definition>
+    <LUACode>local modifierWidget = nil;
+local modifierFieldNode = nil;
+
+function getModifier()
+	if not modifierFieldNode then
+		return 0;
+	end
+	
+	return modifierFieldNode.getValue();
+end
+
+function setModifier(value)
+	if modifierFieldNode then
+		modifierFieldNode.setValue(value);
+	end
+end
+
+function setModifierDisplay(value)
+	if value &gt; 0 then
+		modifierWidget.setText("+" .. value);
+	else
+		modifierWidget.setText(value);
+	end
+	
+	if value == 0 then
+		modifierWidget.setVisible(false);
+	else
+		modifierWidget.setVisible(true);
+	end
+end
+
+function updateModifier(source)
+	if modifierFieldNode then
+		setModifierDisplay(modifierFieldNode.getValue());
+	end
+end
+
+function onInit()
+	local widgetsize = "small";
+	if modifiersize then
+		widgetsize = modifiersize[1];
+	end
+	
+	modifierWidget = addTextWidget("sheetlabelmini", "0");
+	modifierWidget.setFrame("tempmodmini", 3, 1, 6, 3);
+	modifierWidget.setPosition("topright", 0, 0);
+	modifierWidget.setVisible(false);
+
+	-- By default, the modifier is in a field named based on the parent control.
+	local modifierFieldName = getName() .. "modifier";
+	if modifierfield then
+		-- Use a &lt;modifierfield&gt; override
+		modifierFieldName = modifierfield[1];
+	end
+	
+	modifierFieldNode = window.getDatabaseNode().createChild(modifierFieldName, "number");
+	if modifierFieldNode then
+		modifierFieldNode.onUpdate = updateModifier;
+		updateModifier(modifierFieldNode);
+	end
+end
+
+function onWheel(notches)
+	if not Input.isControlPressed() then
+		return false;
+	end
+
+	setModifier(getModifier() + notches);
+	return true;
+end
+</LUACode>
+    <GroupIndex>0</GroupIndex>
+    <Template>dieFieldModifier</Template>
+  </WindowControls>
+  <WindowControls>
+    <WindowName>templates</WindowName>
+    <ControlName>templates</ControlName>
+    <ZIndex>0</ZIndex>
+    <ControlClass>FGWindow</ControlClass>
+    <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
+      {"Name":"AllowResize"},
+      {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
+      {"Name":"BottomMargin","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"Comments"},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"templates"}},
+      {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
+      {"Name":"DataSource"},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"251"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"305"}},
+      {"Name":"Disabled"},
+      {"Name":"Dynamic"},
+      {"Name":"FrameName"},
+      {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"HostControl"},
+      {"Name":"HoverCursor"},
+      {"Name":"InheritSizePosition"},
+      {"Name":"Invisible"},
+      {"Name":"Locked"},
+      {"Name":"MaximumHeight"},
+      {"Name":"MaximumWidth"},
+      {"Name":"MergeWindow"},
+      {"Name":"MinimizedIcon"},
+      {"Name":"MinimumHeight"},
+      {"Name":"MinimumWidth"},
+      {"Name":"NoClose"},
+      {"Name":"NoDelete"},
+      {"Name":"NoMove"},
+      {"Name":"Panel"},
+      {"Name":"PanelModeClient"},
+      {"Name":"PanelModeHost"},
+      {"Name":"PanelModeLocal"},
+      {"Name":"PlayerControl"},
+      {"Name":"Resize","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"RightMargin","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"ScriptFile"},
+      {"Name":"Sharable"},
+      {"Name":"ShareAs"},
+      {"Name":"SoftClose"},
+      {"Name":"Tooltip"},
+      {"Name":"TooltipField"},
+      {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"WindowTitle"},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}
+]}}</Definition>
+    <LUACode />
+    <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23592,12 +24362,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"356"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23634,12 +24406,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"15"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"65"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23676,13 +24450,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"39"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"83"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23719,13 +24496,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"39"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"109"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23762,13 +24542,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"40"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"183"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23805,13 +24588,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"39"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"159"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23848,13 +24634,16 @@ end</LUACode>
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
+      {"Name":"TextUnderlined"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"39"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"137"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23896,12 +24685,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"36"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23945,12 +24736,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"357"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"36"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -23999,12 +24792,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"45"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"28"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24041,12 +24836,14 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"1"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"373"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"371"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24119,6 +24916,7 @@ function update()
 	weaponDescription.setReadOnly(bReadOnly);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24168,12 +24966,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"77"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24181,7 +24981,7 @@ end</LUACode>
     <ZIndex>9</ZIndex>
     <ControlClass>FGDieField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
-      {"Name":"AdvancedTemplate"},
+      {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"dieFieldModifier"}},
       {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
       {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"weaponDamage"}},
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
@@ -24208,16 +25008,18 @@ end</LUACode>
       {"Name":"RelativeMargin"},
       {"Name":"RelativeStacking"},
       {"Name":"Rollable"},
-      {"Name":"ScriptFile","Value":{"@xsi:type":"xsd:string","#text":"Templates/dieFieldModifier.lua"}},
+      {"Name":"ScriptFile","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"Source","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"104"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24266,12 +25068,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"40"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"207"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24320,12 +25124,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"146"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"160"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weapon</WindowName>
@@ -24375,12 +25181,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"142"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"131"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24418,12 +25226,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"344"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24467,17 +25277,19 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"368"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
     <ControlName>lblDamage</ControlName>
-    <ZIndex>8</ZIndex>
+    <ZIndex>7</ZIndex>
     <ControlClass>FGStringField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"diceLabel"}},
@@ -24521,12 +25333,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"182"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24568,12 +25382,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"4"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24622,12 +25438,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"28"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24665,12 +25483,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"321"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24725,6 +25545,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
   <WindowControls>
     <WindowName>weaponlist</WindowName>
@@ -24773,12 +25594,14 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"251"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
     <LUACode />
     <GroupIndex>0</GroupIndex>
+    <Template />
   </WindowControls>
 </DocumentElement>
 
@@ -24797,83 +25620,6 @@ function onInit()
 	addSource("abilities." .. target[1] .. ".score");
 	addSource("abilities." .. target[1] .. ".modifier");
 	super.onInit();
-end
-</Script>
-    <RegisterScript>false</RegisterScript>
-    <Encoding />
-  </Scripts>
-  <Scripts>
-    <ScriptName>dieFieldModifier</ScriptName>
-    <FolderID>9</FolderID>
-    <Script>local modifierWidget = nil;
-local modifierFieldNode = nil;
-
-function getModifier()
-	if not modifierFieldNode then
-		return 0;
-	end
-	
-	return modifierFieldNode.getValue();
-end
-
-function setModifier(value)
-	if modifierFieldNode then
-		modifierFieldNode.setValue(value);
-	end
-end
-
-function setModifierDisplay(value)
-	if value &gt; 0 then
-		modifierWidget.setText("+" .. value);
-	else
-		modifierWidget.setText(value);
-	end
-	
-	if value == 0 then
-		modifierWidget.setVisible(false);
-	else
-		modifierWidget.setVisible(true);
-	end
-end
-
-function updateModifier(source)
-	if modifierFieldNode then
-		setModifierDisplay(modifierFieldNode.getValue());
-	end
-end
-
-function onInit()
-	local widgetsize = "small";
-	if modifiersize then
-		widgetsize = modifiersize[1];
-	end
-	
-	modifierWidget = addTextWidget("sheetlabelmini", "0");
-	modifierWidget.setFrame("tempmodmini", 3, 1, 6, 3);
-	modifierWidget.setPosition("topright", 0, 0);
-	modifierWidget.setVisible(false);
-
-	-- By default, the modifier is in a field named based on the parent control.
-	local modifierFieldName = getName() .. "modifier";
-	if modifierfield then
-		-- Use a &lt;modifierfield&gt; override
-		modifierFieldName = modifierfield[1];
-	end
-	
-	modifierFieldNode = window.getDatabaseNode().createChild(modifierFieldName, "number");
-	if modifierFieldNode then
-		modifierFieldNode.onUpdate = updateModifier;
-		updateModifier(modifierFieldNode);
-	end
-end
-
-function onWheel(notches)
-	if not Input.isControlPressed() then
-		return false;
-	end
-
-	setModifier(getModifier() + notches);
-	return true;
 end
 </Script>
     <RegisterScript>false</RegisterScript>
@@ -25089,30 +25835,6 @@ end</Script>
 		&lt;icon&gt;d20icon&lt;/icon&gt;
 		&lt;position&gt;300,-68&lt;/position&gt;
 	&lt;/die&gt;
-&lt;/root&gt;      
-    </XML>
-  </XMLFiles>
-  <XMLFiles>
-    <XmlName>diceLabel</XmlName>
-    <FolderID>9</FolderID>
-    <XML>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-&lt;root&gt;
-
-	&lt;template name="diceLabel"&gt;
-		&lt;stringcontrol&gt;
-			&lt;readonly /&gt;
-			&lt;script&gt;
-				function onInit()
-					if dicefield[1] then
-						local dicevalue = DB.getValue(window.getDatabaseNode(), dicefield[1]);
-						local modvalue = DB.getValue(window.getDatabaseNode(), dicefield[1] .. "modifier");
-						setValue(StringManager.convertDiceToString(dicevalue, modvalue));
-					end
-				end
-			&lt;/script&gt;
-		&lt;/stringcontrol&gt;
-	&lt;/template&gt;
-
 &lt;/root&gt;      
     </XML>
   </XMLFiles>
