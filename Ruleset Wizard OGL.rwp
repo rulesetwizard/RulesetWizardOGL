@@ -2687,7 +2687,12 @@ function showSlotCounter()
 		slotCounter.setVisible(false);
 	end
 end
-</LUACode>
+
+function reloadActions()
+	for _,w in ipairs(spellActions.getWindows()) do
+		w.showAction();
+	end
+end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
   </WindowControls>
@@ -3920,16 +3925,13 @@ end</LUACode>
   </WindowControls>
   <WindowControls>
     <WindowName>char_spelldamage</WindowName>
-    <ControlName>btnActionDamage</ControlName>
-    <ZIndex>1</ZIndex>
-    <ControlClass>FGButton</ControlClass>
+    <ControlName>actionDamage</ControlName>
+    <ZIndex>2</ZIndex>
+    <ControlClass>FGIconControl</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
       {"Name":"BackgroundColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
-      {"Name":"ButtonCaption","Value":{"@xsi:type":"xsd:string"}},
-      {"Name":"ButtonField"},
-      {"Name":"ButtonStateList","Value":{"@xsi:type":"ArrayOfButtonStateDefinition"}},
-      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"btnActionDamage"}},
+      {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"actionDamage"}},
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
@@ -3937,28 +3939,24 @@ end</LUACode>
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
       {"Name":"Disabled"},
-      {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
-      {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"button-white"}},
-      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"FrameName"},
       {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"GMEditOnly"},
       {"Name":"GMVisibleOnly"},
       {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"HoverCursor"},
-      {"Name":"HoverIconName"},
+      {"Name":"HoverCursor","Value":{"@xsi:type":"xsd:string","#text":"hand"}},
+      {"Name":"IconName","Value":{"@xsi:type":"xsd:string","#text":"button_action_damage"}},
       {"Name":"InheritSizePosition"},
       {"Name":"InsertBefore"},
       {"Name":"Invisible"},
       {"Name":"Merge"},
       {"Name":"NextTabTarget"},
-      {"Name":"NormalIconName","Value":{"@xsi:type":"xsd:string","#text":"button_action_damage"}},
-      {"Name":"PressedIconName"},
       {"Name":"PrevTabTarget"},
       {"Name":"ReadOnly"},
       {"Name":"RelativeMargin"},
       {"Name":"RelativeStacking"},
       {"Name":"ScriptFile"},
-      {"Name":"StackVertWith","Value":{"@xsi:type":"xsd:string"}},
+      {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
       {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
@@ -3967,6 +3965,7 @@ end</LUACode>
 ]}}</Definition>
     <LUACode>function action(draginfo)
 	ManagerOGL.spellAction(draginfo, window.getDatabaseNode());
+	return true;
 end
 
 function onButtonPress(x, y)
@@ -3974,8 +3973,7 @@ function onButtonPress(x, y)
 end
 
 function onDragStart(button, x, y, draginfo)
-	action(draginfo);
-	return true;
+	return action(draginfo);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
@@ -4038,7 +4036,7 @@ end</LUACode>
   <WindowControls>
     <WindowName>char_spelldamage</WindowName>
     <ControlName>Damage</ControlName>
-    <ZIndex>3</ZIndex>
+    <ZIndex>4</ZIndex>
     <ControlClass>FGDieField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate","Value":{"@xsi:type":"xsd:string","#text":"dieFieldModifier"}},
@@ -4084,7 +4082,7 @@ end</LUACode>
   <WindowControls>
     <WindowName>char_spelldamage</WindowName>
     <ControlName>damagetype</ControlName>
-    <ZIndex>4</ZIndex>
+    <ZIndex>5</ZIndex>
     <ControlClass>FGStringField</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -4140,7 +4138,7 @@ end</LUACode>
   <WindowControls>
     <WindowName>char_spelldamage</WindowName>
     <ControlName>lblDamage</ControlName>
-    <ZIndex>2</ZIndex>
+    <ZIndex>3</ZIndex>
     <ControlClass>FGLabel</ControlClass>
     <Definition>{"ArrayOfFGControlPropertyInfo":{"@xmlns:xsd":"http://www.w3.org/2001/XMLSchema","@xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","FGControlPropertyInfo":[
       {"Name":"AdvancedTemplate"},
@@ -4626,6 +4624,10 @@ end
 
 function setFilter(s)
 	spellfilter.setValue(s);
+end
+
+function onDrop(x, y, draginfo)
+	return spells.handleDrop(draginfo, nil);
 end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
@@ -4942,12 +4944,23 @@ function handleDrop(draginfo, nodeTargetList)
 				return;
 			end
 			local nodeList = getDatabaseNode();
-			local nodeEntry = nodeList.createChild();
+			--local nodeEntry = nodeList.createChild();
+			local newW = createWindow();
+			local nodeEntry = newW.getDatabaseNode();
 
 			local sClass, sRecord = draginfo.getShortcutData();
 			DB.setValue(nodeEntry, "linkSpell", "windowreference", sClass, sRecord);
 			DB.setValue(nodeEntry, "spellName", "string", DB.getValue(nodeSource, "name"));
-
+			
+			--Copy spell effects
+			local effectsSourceNode = nodeSource.getChild("effects");
+			Debug.chat(effectsSourceNode);
+			if effectsSourceNode then
+				local effectsDestNode = nodeEntry.createChild("spellactions");
+				DB.copyNode(effectsSourceNode, effectsDestNode);
+				newW.reloadActions();
+			end
+						
 			return true;
 		end
 	end
@@ -16330,7 +16343,7 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"391"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"12"}}
@@ -16459,7 +16472,7 @@ end</LUACode>
       {"Name":"StackVertWith"},
       {"Name":"TextUnderlined","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
       {"Name":"Tooltip"},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"17"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"10"}}
@@ -16505,7 +16518,7 @@ end</LUACode>
       {"Name":"ScrollTarget","Value":{"@xsi:type":"xsd:string","#text":"spellGroupList"}},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"475"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"34"}}
@@ -16561,7 +16574,7 @@ end</LUACode>
       {"Name":"Source"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"29"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"13"}}
@@ -16622,7 +16635,7 @@ end
       {"Name":"SkipEmpty"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip","Value":{"@xsi:type":"xsd:string"}},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"WindowListClassName","Value":{"@xsi:type":"xsd:string","#text":"char_spellgroup"}},
       {"Name":"WindowListFilterBy","Value":{"@xsi:type":"FilterByDefinition","FilterSourceType":"Control","FilterOnSourceType":"Control"}},
@@ -16741,7 +16754,7 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip","Value":{"@xsi:type":"xsd:string","#text":"Add new Spell Group"}},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"436"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"11"}}
@@ -16792,7 +16805,7 @@ end</LUACode>
       {"Name":"ScriptFile"},
       {"Name":"StackVertWith"},
       {"Name":"Tooltip"},
-      {"Name":"UseAsTemplate"},
+      {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"458"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"11"}}
