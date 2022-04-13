@@ -3424,7 +3424,7 @@ end;
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"20"}},
-      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","UseModStack":{"@xsi:nil":"true"},"ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":{"@xsi:nil":"true"},"AdditionalInfo":null}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ManagerOGL.GetAdvDisDie()} + {spellAttackBonus}","DiceRollDescription":"[SPELL ATTACK] {...spellName}","DiceRollType":"attack","UseModStack":"true","ResetModStack":"true","SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"each","AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
       {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"button-white"}},
@@ -3454,18 +3454,7 @@ end;
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"3"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"2"}}
 ]}}</Definition>
-    <LUACode>function action(draginfo)
-	ManagerOGL.spellAction(draginfo, window.getDatabaseNode());
-end
-
-function onButtonPress(x, y)
-	action();
-end
-
-function onDragStart(button, x, y, draginfo)
-	action(draginfo);
-	return true;
-end</LUACode>
+    <LUACode />
     <GroupIndex>0</GroupIndex>
     <Template />
   </WindowControls>
@@ -3949,7 +3938,7 @@ end</LUACode>
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"20"}},
-      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getDamageDice() }","DiceRollDescription":"{...spellName} [DAMAGE] {damagetype}","DiceRollType":"damage","UseModStack":"true","ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"all","AdditionalInfo":null}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getDamageDice() }","DiceRollDescription":"{...spellName} [DAMAGE] {damagetype}","DiceRollType":"damage","UseModStack":"true","ResetModStack":"true","SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"all","AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
       {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"button-white"}},
@@ -4057,7 +4046,7 @@ end</LUACode>
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"26"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"77"}},
-      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"+ {@ getModifier()}","DiceRollDescription":"{...spellName} [DAMAGE] {damagetype}","DiceRollType":"damage","UseModStack":"true","ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"all","AdditionalInfo":null}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getDamageDice()}","DiceRollDescription":"{...spellName} [DAMAGE] {damagetype}","DiceRollType":"damage","UseModStack":"true","ResetModStack":"true","SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"all","AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
       {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string","#text":"5,5,5,5"}},
@@ -4085,7 +4074,15 @@ end</LUACode>
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"79"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"1"}}
 ]}}</Definition>
-    <LUACode />
+    <LUACode>
+function getDamageDice()
+	local mod = getModifier();
+	if mod ~= 0 then
+		return " + " .. mod;
+	else
+		return "";
+	end
+end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
   </WindowControls>
@@ -5084,7 +5081,7 @@ end</LUACode>
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"20"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"20"}},
-      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getHealingDice() }","DiceRollDescription":"{...spellName} [HEALING]","DiceRollType":"heal","UseModStack":"true","ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"each","AdditionalInfo":null}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getHealingDice() }","DiceRollDescription":"{...spellName} [HEALING]","DiceRollType":"heal","UseModStack":"true","ResetModStack":"true","SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"each","AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"FontColor","Value":{"@xsi:type":"xsd:string","#text":"0;0;0;0"}},
       {"Name":"FontName","Value":{"@xsi:type":"xsd:string","#text":"button-white"}},
@@ -5192,7 +5189,7 @@ end</LUACode>
       {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"26"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"77"}},
-      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"+ {@ getModifier()}","DiceRollDescription":"{...spellName} [HEALING]","DiceRollType":"heal","UseModStack":"true","ResetModStack":{"@xsi:nil":"true"},"SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"each","AdditionalInfo":null}},
+      {"Name":"DiceRoll","Value":{"@xsi:type":"PropertyDiceRoll","DiceRollString":"{@ getHealingDice()}","DiceRollDescription":"{...spellName} [HEALING]","DiceRollType":"heal","UseModStack":"true","ResetModStack":"true","SecretRoll":{"@xsi:nil":"true"},"AllowDragDrop":"true","Targeting":"each","AdditionalInfo":null}},
       {"Name":"Disabled"},
       {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"fielddark"}},
       {"Name":"FrameOffset","Value":{"@xsi:type":"xsd:string","#text":"5,5,5,5"}},
@@ -5220,7 +5217,15 @@ end</LUACode>
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"79"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}
 ]}}</Definition>
-    <LUACode />
+    <LUACode>
+function getHealingDice()
+	local mod = getModifier();
+	if mod ~= 0 then
+		return " + " .. mod;
+	else
+		return "";
+	end
+end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
   </WindowControls>
@@ -16766,40 +16771,11 @@ end
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"2"}},
       {"Name":"WindowListClassName","Value":{"@xsi:type":"xsd:string","#text":"char_spellgroup"}},
       {"Name":"WindowListFilterBy","Value":{"@xsi:type":"FilterByDefinition","FilterSourceType":"Control","FilterOnSourceType":"Control"}},
-      {"Name":"WindowListSortBy","Value":{"@xsi:type":"ArrayOfSortByDefinition"}},
+      {"Name":"WindowListSortBy","Value":{"@xsi:type":"ArrayOfSortByDefinition","SortByDefinition":[{"Descending":{"@xsi:nil":"true"},"SourceType":"Database","SourceName":"GroupIcon"},{"Descending":{"@xsi:nil":"true"},"SourceType":"Database","SourceName":"spellGroupName"}]}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"9"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"36"}}
 ]}}</Definition>
     <LUACode>
---function onDrop(x, y, draginfo)
---	return handleDrop(draginfo, nil);
---end
---
---function handleDrop(draginfo, nodeTargetList)
---	if draginfo.isType("shortcut") then
---		local sClass, sRecord = draginfo.getShortcutData();
---		if sClass == "spell" then
---			local nodeSource = ManagerOGL.resolveRefNode(sRecord);
---			if not nodeSource then
---				return;
---			end
---			local nodeList = getDatabaseNode();
---			local nodeEntry = nodeList.createChild();
---
---			local sClass, sRecord = draginfo.getShortcutData();
---			DB.setValue(nodeEntry, "linkSpell", "windowreference", sClass, sRecord);
---			DB.setValue(nodeEntry, "spellName", "string", DB.getValue(nodeSource, "name"));
-----			DB.setValue(nodeEntry, "damageDice", "dice", DB.getValue(nodeSource, "weaponDamage"));
-----			DB.setValue(nodeEntry, "damageItem", "number", DB.getValue(nodeSource, "weaponDamagemodifier")); -- From dieFieldModifier template
-----			DB.setValue(nodeEntry, "attackProperties", "string", DB.getValue(nodeSource, "weaponProperties"));
---
---			return true;
---		end
---	end
---end
---
---local sFocus = "attackName"; -- From char_attack
-
 function onListChanged()
 	update();
 end
@@ -16814,27 +16790,8 @@ function update()
 	end
 end
 
---function onClickDown(button, x, y)
---	if not isReadOnly() and getDatabaseNode().isOwner() then
---		return true;
---	end
---end
---
---function onClickRelease(button, x, y)
---	if not isReadOnly() and getDatabaseNode().isOwner() then
---		if getWindowCount() == 0 then
---			addEntry(true);
---		end
---		return true;
---	end
---end
---
 function addEntry(bFocus)
 	local w = createWindow();
---	if bFocus then
---		w[sFocus].setFocus();
---	end
---	return w;
 end</LUACode>
     <GroupIndex>0</GroupIndex>
     <Template />
