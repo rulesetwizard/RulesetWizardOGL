@@ -1,0 +1,35 @@
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <XMLFiles>
+    <XmlName>desktopdice</XmlName>
+    <FolderID>7</FolderID>
+    <XML>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;root&gt;
+    &lt;die name="dF" merge="delete" /&gt;
+	&lt;die name="d4"&gt;
+		&lt;icon&gt;d4icon&lt;/icon&gt;
+		&lt;position&gt;550,-68&lt;/position&gt;
+	&lt;/die&gt;
+	&lt;die name="d6"&gt;
+		&lt;icon&gt;d6icon&lt;/icon&gt;
+		&lt;position&gt;500,-68&lt;/position&gt;
+	&lt;/die&gt;
+	&lt;die name="d8"&gt;
+		&lt;icon&gt;d8icon&lt;/icon&gt;
+		&lt;position&gt;450,-68&lt;/position&gt;
+	&lt;/die&gt;
+	&lt;die name="d10"&gt;
+		&lt;icon&gt;d10icon&lt;/icon&gt;
+		&lt;position&gt;400,-68&lt;/position&gt;
+	&lt;/die&gt;
+	&lt;die name="d12"&gt;
+		&lt;icon&gt;d12icon&lt;/icon&gt;
+		&lt;position&gt;350,-68&lt;/position&gt;
+	&lt;/die&gt;
+	&lt;die name="d20"&gt;
+		&lt;icon&gt;d20icon&lt;/icon&gt;
+		&lt;position&gt;300,-68&lt;/position&gt;
+	&lt;/die&gt;
+&lt;/root&gt;      
+    </XML>
+  </XMLFiles>
+</DocumentElement>

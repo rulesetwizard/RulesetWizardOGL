@@ -1,0 +1,44 @@
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Scripts>
+    <ScriptName>ManagerOGL</ScriptName>
+    <FolderID>0</FolderID>
+    <Script>
+function onInit()
+
+	GameSystem.actions["save"] = { bUseModStack = "true", sTargeting = "each" };
+end
+
+function GetAdvDisDie()
+
+    local bADV = ModifierStack.getModifierKey("advantage");
+	local bDIS = ModifierStack.getModifierKey("disadvantage");
+
+    if bADV and not bDIS then -- Advantage
+        return "2g20k1";
+    end
+
+    if bDIS and not bADV then -- Disadvantage
+        return "2r20kl1";
+    end
+    
+    return "d20";
+end
+
+function resolveRefNode(sRecord)
+	local nodeSource = DB.findNode(sRecord);
+	if not nodeSource then
+		local sRecordSansModule = StringManager.split(sRecord, "@")[1];
+		nodeSource = DB.findNode(sRecordSansModule .. "@*");
+		if not nodeSource then
+			ChatManager.SystemMessage(Interface.getString("char_error_missingrecord"));
+		end
+	end
+	return nodeSource;
+end
+
+function spellSave(rSource, rAction)
+end</Script>
+    <RegisterScript>true</RegisterScript>
+    <Encoding />
+  </Scripts>
+</DocumentElement>

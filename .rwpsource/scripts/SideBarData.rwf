@@ -1,0 +1,94 @@
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Scripts>
+    <ScriptName>SideBarData</ScriptName>
+    <FolderID>8</FolderID>
+    <Script>
+function onInit()
+
+	-- See scripts\data_library.lua in CoreRPG for reference
+
+--	local tButton = {
+--		--sRecordType = "weapons",
+--		sLabelRes = "library_recordtype_label_classes",
+--		class = "classlist",
+--		path = "reference.classes",
+--		sSidebarCategory  = "player",
+--		sIcon = "sidebar_icon_recordtype_class",
+--	}
+--	DesktopManager.registerSidebarToolButton(tButton);
+--		
+
+	-- To allow the creation of custom sidebar buttons
+	Interface.onDesktopInit = onDesktopInit;
+
+	aRecordOverrides = {
+		["spell"] = { 
+			bExport = true,
+			aDataMap = { "reference.spells" }, 
+			sRecordDisplayClass = "spell", 
+			aCustomFilters = {
+				["School"] = { sField = "school" },
+				["Level"] = { sField = "spelllevel", sType = "number" },
+			}
+		},		
+		["item_weapon"] = { 
+			bExport = true,
+			aDataMap = { "reference.weapons" }, 
+			sRecordDisplayClass = "weapon", 
+			sListDisplayClass = "weaponlist",
+		},
+	}
+	
+	LibraryData.overrideRecordTypes(aRecordOverrides);
+
+	-- Set new reference nodes as public
+	if User.isHost() then
+		local spells = DB.findNode("reference.spells");
+		if spells then
+			spells.setPublic(true);
+		end
+		
+		local weapons = DB.findNode("reference.weapons");
+		if weapons then
+			weapons.setPublic(true);
+		end;
+	end;
+						
+end
+
+function onDesktopInit()
+	createCustomDockSidebarButton();
+end
+
+function createCustomDockSidebarButton()
+
+	local vButton = {
+		--sRecordType = "weapons",
+		sLabelRes = "library_recordtype_label_classes",
+		sClass = "classlist",
+		sPath = "reference.classes",
+		sCategory = "Character",
+		sIcon = "sidebar_icon_recordtype_class",
+	}
+
+	local _wShortcuts = Interface.findWindow("shortcuts", "");
+	for _,vCategory in pairs(_wShortcuts.shortcutbar.subwindow.list.getWindows()) do
+		-- Find the category
+		if vCategory.label.getValue() == vButton.sCategory then
+			-- Create the new button in the category
+			local w = vCategory.list.createWindow();
+			w.setData(vButton);			
+		end
+	end
+	
+	if User.isHost() then
+		local classes = DB.findNode("reference.classes");
+		if classes then
+			classes.setPublic(true);
+		end;
+	end
+end</Script>
+    <RegisterScript>true</RegisterScript>
+    <Encoding />
+  </Scripts>
+</DocumentElement>

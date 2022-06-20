@@ -1,0 +1,21 @@
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Scripts>
+    <ScriptName>char_abilitybonus</ScriptName>
+    <FolderID>2</FolderID>
+    <Script>function onSourceUpdate()
+	local nodeWin = window.getDatabaseNode();
+	local nCurrentScore = DB.getValue(nodeWin, "abilities." .. target[1] .. ".score", 10);
+	nCurrentScore = nCurrentScore + DB.getValue(nodeWin, "abilities." .. target[1] .. ".modifier", 0);
+	setValue(math.floor((nCurrentScore - 10) / 2) + getModifier());
+end
+
+function onInit()
+	addSource("abilities." .. target[1] .. ".score");
+	addSource("abilities." .. target[1] .. ".modifier");
+	super.onInit();
+end
+</Script>
+    <RegisterScript>false</RegisterScript>
+    <Encoding />
+  </Scripts>
+</DocumentElement>
