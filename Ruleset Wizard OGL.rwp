@@ -10,7 +10,7 @@
     <Website>https://www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.2</RulesetWizardVersion>
+    <RulesetWizardVersion>0.8.7</RulesetWizardVersion>
     <RulesetList>CoreRPG</RulesetList>
     <LoadOrder />
     <Comments />
@@ -18,7 +18,8 @@
     <LogoFile />
     <ImportRuleset>CoreRPG</ImportRuleset>
     <AdvancedDevelopment>true</AdvancedDevelopment>
-    <GeneratePath>c:\Users\alzal\Documents\Fantasy Grounds Unity\rulesets\Ruleset Wizard OGL.pak</GeneratePath>
+    <GeneratePath />
+    <UseAutoPath>true</UseAutoPath>
     <AnnouncementFont />
     <AnnouncementIcon />
     <Announcement2 />
